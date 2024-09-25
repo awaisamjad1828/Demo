@@ -1,0 +1,270 @@
+                        body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    header {
+                        background-color: #333;
+                        color: white;
+                        padding: 1em 0;
+                        text-align: center;
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        z-index: 1;
+                    }
+                    
+                    nav ul {
+                        list-style-type: none;
+                        padding: 0;
+                    }
+                    
+                    nav ul li {
+                        display: inline;
+                        margin: 0 1em;
+                    }
+                    
+                    nav ul li a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    section {
+                        padding: 2em;
+                        border-bottom: 1px solid #ccc;
+                    }
+                    
+                    footer {
+                        background-color: #333;
+                        color: white;
+                        text-align: center;
+                        padding: 1em 0;
+                    }
+                    
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f4f4f4;
+                    }
+                    
+                    .container {
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        background-color: white;
+                        padding: 20px;
+                        border: 2px solid #ddd;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                        margin-top: 90px;
+                        margin-left: 260px;
+                    }
+                    /* First_Portion Styles */
+                    
+                    First_Portion {
+                        font-weight: bold;
+                        padding: 15px 0;
+                        text-align: center;
+                    }
+                    
+                    First_Portion h1 {
+                        margin: 0;
+                        font-size: 28px;
+                    }
+                    
+                    First_Portion p {
+                        margin: 5px;
+                        font-size: 14px;
+                    }
+                    /* Navbar Styles */
+                    /* Table Styles */
+                    
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin-bottom: 30px;
+                    }
+                    
+                    table,
+                    th,
+                    td {
+                        border: 1px solid black;
+                    }
+                    
+                    th,
+                    td {
+                        padding: 4px;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                    
+                    .course-info {
+                        margin-top: 20px;
+                        font-size: 14px;
+                    }
+                    
+                    .course-info table {
+                        margin-top: 10px;
+                    }
+                    
+                    .signature {
+                        margin-top: 40px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .signature div {
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .signature div p {
+                        margin: 5px;
+                    }
+                    /* Footer Styles */
+                    
+                    footer {
+                        background-color: #465246;
+                        color: white;
+                        text-align: center;
+                        padding: 20px 0;
+                        margin-top: 30px;
+                    }
+                    
+                    footer p {
+                        margin: 5px;
+                    }
+                    
+                    footer a {
+                        color: #ffcc00;
+                        text-decoration: none;
+                    }
+                    
+                    footer a:hover {
+                        text-decoration: underline;
+                    }
+                    
+                    .cordinator1,
+                    .chairman1 {
+                        display: none;
+                    }
+                    /* Responsive adjustments */
+                    
+                    @media (max-width: 768px) {
+                        th,
+                        td {
+                            padding: 8px;
+                            font-size: 12px;
+                        }
+                        .container {
+                            padding: 10px;
+                            margin-left: 0;
+                        }
+                        .signature {
+                            flex-direction: column;
+                        }
+                        .signature div {
+                            margin-bottom: 10px;
+                        }
+                        nav ul {
+                            flex-direction: column;
+                        }
+                        nav ul li {
+                            margin: 10px 0;
+                        }
+                    }
+                    
+                    @media (max-width: 480px) {
+                        th,
+                        td {
+                            padding: 6px;
+                            font-size: 9px;
+                        }
+                        First_Portion h1 {
+                            font-size: 18px;
+                        }
+                        First_Portion p {
+                            font-size: 12px;
+                        }
+                        .container {
+                            padding: 5px;
+                            margin-left: 0;
+                        }
+                        /* Make tables scrollable */
+                        table {
+                            display: block;
+                            overflow-x: auto;
+                            white-space: nowrap;
+                        }
+                        .cordinator,
+                        .chairman {
+                            display: none;
+                        }
+                        .break-row td {
+                            border: 1px solid white;
+                            /* Apply 1px solid white border only for "Break" row */
+                            border-left: none;
+                            /* Remove left border */
+                            border-right: none;
+                            /* Remove right border */
+                            font-weight: bold;
+                            font-size: medium;
+                        }
+                        /* Add this scrollbar styling */
+                         ::-webkit-scrollbar {
+                            width: 12px;
+                            /* Increase the width of the scrollbar track */
+                            height: 12px;
+                            /* Increase the height of the scrollbar thumb */
+                        }
+                         ::-webkit-scrollbar-track {
+                            background-color: #f5f5f5;
+                            /* Light gray background for the scrollbar track */
+                        }
+                         ::-webkit-scrollbar-thumb {
+                            background-color: #ccc;
+                            /* Medium gray background for the scrollbar thumb */
+                            border-radius: px;
+                            /* Rounded corners for the scrollbar thumb */
+                        }
+                        .lastportion {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 120px;
+                            margin-left: 100px;
+                        }
+                        .sider {
+                            width: 10%;
+                            height: 80vh;
+                            background-color: white;
+                            padding: 40px;
+                            border-radius: 20px;
+                            box-shadow: 0px 0px 10px;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                            position: relative;
+                        }
+                        .btn-side {
+                            padding: 10px 50px;
+                            background-color: transparent;
+                            margin-top: 70px;
+                            border-radius: 20px;
+                            position: relative;
+                        }
+                        .btn-divide01,
+                        .btn-divide02 {
+                            padding: 10px 30px;
+                            border-radius: 20px;
+                            position: absolute;
+                            top: 50px;
+                            left: 0;
+                            cursor: pointer;
+                            display: none;
+                            /* Initially hidden */
+                        }
+                        /* Show buttons on hover */
+                        .btn-side:hover .btn-divide01,
+                        .btn-side:hover .btn-divide02 {
+                            display: inline-block;
+                        }
